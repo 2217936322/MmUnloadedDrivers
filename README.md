@@ -2,7 +2,7 @@
 Clear your driverobject from MmUnloadedDrivers in order to combat EAC/BE Detection Vector
 
 
-```
+```C
 NTSTATUS clearTableEntry(PDRIVER_OBJECT driver, wchar_t* driverName) {
 	__try
 	{
